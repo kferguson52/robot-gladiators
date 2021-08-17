@@ -7,7 +7,11 @@ var playerMoney = 10;
 // You can also log multiple values at once like this
 console.log(playerName, playerAttack, playerHealth);
 
-var enemyName = "Roborto";
+var enemyNames = ["Roborto", "Amy Android", "Robo Trumble"];
+console.log(enemyNames);
+console.log(enemyNames[0]);
+console.log(enemyNames[2]);
+console.log(enemyNames.length);
 var enemyHealth = 50;
 var enemyAttack = 12;
 
@@ -68,4 +72,4 @@ var fight = function() {
 };
 
 // run fight function to start game
-fight();
+//fight();
